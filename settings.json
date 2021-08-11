@@ -12,10 +12,23 @@
         "textMateRules": [
             {
                 "scope": [
-                    "entity.name.tag.tsx",
+                    // "entity.name.tag.tsx",
+                    // "entity.name.tag.html",
+                    "support.class.component.tsx"
                 ],
                 "settings": {
-                    "foreground": "#208599",
+                    "foreground": "#84a0da"/*"#F28779","#208599",*/
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag.begin.tsx",
+                    "punctuation.definition.tag.end.tsx",
+                    "punctuation.definition.tag.begin.html",
+                    "punctuation.definition.tag.end.html"
+                ],
+                "settings": {
+                    "foreground": "#CBCCC6",
                 }
             },
         ]
