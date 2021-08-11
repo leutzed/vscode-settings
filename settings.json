@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono Medium",
+    "terminal.integrated.fontFamily": "JetBrains Mono Medium",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "workbench.sideBar.location": "right",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.tag.tsx",
+                ],
+                "settings": {
+                    "foreground": "#208599",
+                }
+            },
+        ]
+    }
+}
