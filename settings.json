@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Ayu Mirage",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JetBrains Mono Medium",
     "terminal.integrated.fontFamily": "JetBrains Mono Medium",
@@ -12,25 +12,15 @@
         "textMateRules": [
             {
                 "scope": [
-                    // "entity.name.tag.tsx",
-                    // "entity.name.tag.html",
                     "support.class.component.tsx"
                 ],
                 "settings": {
-                    "foreground": "#84a0da"/*"#F28779","#208599",*/
-                }
-            },
-            {
-                "scope": [
-                    "punctuation.definition.tag.begin.tsx",
-                    "punctuation.definition.tag.end.tsx",
-                    "punctuation.definition.tag.begin.html",
-                    "punctuation.definition.tag.end.html"
-                ],
-                "settings": {
-                    "foreground": "#CBCCC6",
+                    "foreground": "#569CD6"
                 }
             },
         ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#171c29"
     }
 }
