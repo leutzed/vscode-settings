@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Ayu Mirage",
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JetBrains Mono Medium",
     "terminal.integrated.fontFamily": "JetBrains Mono Medium",
@@ -18,9 +17,16 @@
                     "foreground": "#569CD6"
                 }
             },
-        ]
+        ],
     },
     "workbench.colorCustomizations": {
-        "editor.background": "#191f2c"
-    }
+        "editor.background": "#191f2c",
+        "editorCursor.background": "#191f2c",
+        "editor.lineHighlightBackground": "#252c3a",
+        "editor.lineHighlightBorder": "#252c3a",
+        "breadcrumb.background": "#191f2c",
+        "breadcrumb.foreground": "#d1d4da",
+        "editorGutter.background":"#191f2c"
+    },
+    "workbench.colorTheme": "Halcyon"
 }
