@@ -1,0 +1,74 @@
+{
+    "workbench.iconTheme": "ayu",
+    "editor.fontFamily": "JetBrains Mono Medium",
+    "terminal.integrated.fontFamily": "JetBrains Mono Medium",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "workbench.startupEditor": "none",
+    "editor.suggestSelection": "first",
+    "workbench.colorTheme": "Dull Sun",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.tree.indent": 15,
+    "editor.tabSize": 2,
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+      },
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "javascript.updateImportsOnFileMove.enabled": "always",
+      "breadcrumbs.enabled": true,
+      "editor.parameterHints.enabled": false,
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+      ],
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
+      "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "prettier.singleQuote": true,
+      "typescript.updateImportsOnFileMove.enabled": "always",
+    
+
+// "editor.tokenColorCustomizations": {
+    //     "textMateRules": [
+    //         {
+    //             "scope": [
+    //                 "support.class.component.tsx"
+    //             ],
+    //             "settings": {
+    //                 "foreground": "#569CD6"
+    //             }
+    //         },
+    //     ],
+    // },
+    "workbench.colorCustomizations": {
+        // "editor.background": "#14181f",
+        // "editorCursor.background": "#191f2c",
+        // "editor.lineHighlightBackground": "#252c3a",
+        // "editor.lineHighlightBorder": "#252c3a",
+        // "breadcrumb.background": "#191f2c",
+        // "breadcrumb.foreground": "#d1d4da",
+        // "editorGutter.background":"#191f2c"
+    },
+    "editor.linkedEditing": true,
+    // "workbench.sideBar.location": "right",
+    "terminal.integrated.env.windows": {},
+    "terminal.integrated.env.linux": {},
+}
